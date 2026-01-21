@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER PART */
+
+.win {
+    color: #0077b6;
+}
+
+header {   
+    font-size: 14px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    gap: 30rem;
+    height: 100px;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 768px) {
+        
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        flex-direction: column;
+        height: 10rem;
+        gap: 2rem;
+    }
+
+    nav {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 18px;
+    }
+}
+
+
+/* HEADER END */
+
+
+
+
+/* STARTER */
+
+.starter {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTgx-eh-37bki25vRRfPcyZwsCidwRwZ3QWDoKTQajSC2VUebmY);
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.starter-text {
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.starter-text h1 {
+    font-size: 50px;
+    color: white;
+}
+.starter-text p {
+    font-size: 19px;
+    color: white;
+}
+.start-img img {
+    border-radius: 15px;
+}
+.start-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.end-sec {
+    width: 100%;
+    height: 500px;
+    background-color: #f9fafb;
+}
+.first-text h1 {
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.end-text {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.end-text div {
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.2));
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.end-text div:hover {
+    translate: 0 -5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.end-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nacho-h3 {
+    text-align: center;
+    font-size: 30px;
+}
+.img {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img img {
+    border-radius: 15px;
+    width: 100%;
+    height: 60%;
+
+}
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.img div:hover {
+    translate: 0 -5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img h3 {
+    text-align: center;
+}
+.img p {
+    text-align: center;
+}
+.img a {
+    margin-left: 10px;
+
+}
+.img div {
+    background-color: white;
+    border-radius: 15px;
+    min-height: 300px;
+    width: 250px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+    padding: 20px;
+}
+
+.img a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.cl {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 300px;
+    background-color: #0b1220;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+footer div {
+    gap: 1000px;
+    padding-top: 50px;
+
+}
+footer h1 {
+    font-size: 17px;
+}
+
+.end-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+.end-top h2 {
+    color: #6b7280;
+}
+.end-texts h5 {
+    color: #6b7280;
+}
+.end-texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+@media (max-width: 768px) {
+    
+    .end-top {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+
+    .start-img div {
+        
+    }
+    
+}

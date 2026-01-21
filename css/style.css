@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER PART */
+
+.win {
+    color: #0077b6; 
+}
+
+header {   
+    font-size: 14px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    gap: 30rem;
+    height: 100px;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER SECTION END */
+
+/* HERO SECTION START */
+
+.start {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://uzbekistan.travel/storage/app/media/Rasmlar/Samarqand/umumiy/cropped-images/shutterstock_1979665571-0-0-0-0-1738745770.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.begin {
+    color: white;
+    text-align: center;
+}
+.begin h1 {
+    font-size: 50px;
+}
+.begin p {
+    font-size: 24px;
+}
+.button-1 button {
+    font-size: 17px;
+    padding: 15px 15px;
+    border-radius: 15px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+}
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+button:hover {
+    translate: 0 -5px;
+    cursor: pointer;
+    background-color: #025480;
+    transition: 0.3s;
+}
+
+.nacho-h3 {
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+.img img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 60%;
+}
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.img div:hover {
+    translate: 0 -5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img h3 {
+    margin-left: 10px;
+}
+.img p {
+    margin-left: 10px;
+}
+.img a {
+    margin-left: 10px;
+
+}
+.img div {
+    background-color: white;
+    border-radius: 15px;
+    min-height: 350px;
+    width: 350px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+}
+
+
+.img a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.cl {
+    display: flex;
+    justify-content: center;
+}
+.cl button {
+    width: 170px;
+    height: 50px;
+    background-color: #0077b6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.end-img img {
+    height: 320px;
+    border-radius: 12px;
+}
+
+.end-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.gl-div {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.text {
+    padding-left: 50px;
+    padding-top: 70px;
+}
+.end-end {
+    display: flex;
+}
+
+/* FOOTER PART */
+
+footer {
+    height: 300px;
+    background-color: #0b1220;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+footer div {
+    gap: 1000px;
+    padding-top: 50px;
+
+}
+footer h1 {
+    font-size: 17px;
+}
+.end-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+.end-top h2 {
+    color: #6b7280;
+}
+.end-texts h5 {
+    color: #6b7280;
+}
+
+.end-texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        flex-direction: column;
+        height: 10rem;
+        gap: 2rem;
+    }
+
+    nav {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .begin h1 {
+        font-size: 32px;
+    }
+
+    .begin p {
+        font-size: 18px;
+    }
+
+    .img {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .img div {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .end-image {
+        flex-direction: column;
+    }
+
+    .end-top {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 30px;
+    }
+}

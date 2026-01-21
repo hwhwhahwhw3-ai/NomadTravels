@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER PART */
+
+.win {
+    color: #0077b6;
+}
+
+header {   
+    font-size: 14px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    gap: 30rem;
+    height: 100px;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        flex-direction: column;
+        height: 10rem;
+        gap: 2rem;
+    }
+
+    nav {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 18px;
+    }
+}
+
+/* HEADER END */
+
+
+
+
+.start {
+ background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://www.gazeta.uz/sp/35429918/img/tild3566-3633-4039-b166-343137303362__yxkzop16282472803398.jpeg);
+    height: 60vh;
+    background-size: cover;
+}
+.a-text a {
+    background: #f3f4f6;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+.win {
+    color: #0077b6;
+}
+.gl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Section start */
+
+.a-text {
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: center;
+    gap: 20px;
+}
+.start-text {
+    text-align: center;
+    
+}
+.wh {
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+}
+
+.start-image h1 {
+    padding-left: 10px;
+}
+
+.start-image {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 0 50px;
+    flex-wrap: wrap;
+}
+
+.start-image div  {
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+    width: 150px;
+    height: 100px;
+}
+
+.gallery-item {
+  position:relative;
+  overflow:hidden;
+  border-radius: 15px;
+}
+
+.gallery-item img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition: transform .4s ease;
+  border-radius: 15px;
+}
+
+figure {
+    width: 180px;
+    height: 120px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.gallery-item:hover img { transform: scale(1.08); }
+.gallery-item figcaption {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:.5rem 1rem;
+  background: rgba(0,0,0,0.45);
+  color:white;
+  font-weight:600;
+    border-radius: 0 0 15px 15px;
+
+}
+
+
+.n1 {
+    background-image: url(https://www.atlasandboots.com/wp-content/uploads/2019/05/denali-most-beautiful-mountains-in-the-world.jpg);
+}
+
+.start-image .n2 {
+    background-image: url(https://www.atlasandboots.com/wp-content/uploads/2019/05/denali-most-beautiful-mountains-in-the-world.jpg);
+}
+.start-image .n3 {
+    background-image: url(https://i0.wp.com/www.touristjapan.com/wp-content/uploads/2025/02/map-of-tokyo-japan-shinjuku-scaled.jpg?fit=2560%2C1707&ssl=1);
+}
+.start-image .n4 {
+    background-image: url(https://i.natgeofe.com/k/a6c9f195-de20-445d-9d36-745ef56042c5/OG_Colosseum_Ancient-Rome_KIDS_1122_3x2.jpg);
+}
+.start-image .n5 {
+    background-image: url(https://cdn.audleytravel.com/2478/1770/79/16027396-pura-ulun-danu-bratan-bali.jpg);
+}
+.start-image .n6 {
+    background-image: url(https://stranavetrov.ru/upload/articles/article-6/1@2x.jpg);
+}
+
+
+.start-image div h1 {
+    color: white;
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+
+.buy-div img {
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.buy-div {
+    display: flex;
+    justify-content: center;
+}
+
+.no {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .no {
+        flex-direction: column;
+    }
+}
+
+.buy {
+    padding-left: 100px;
+}
+
+.text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.buy h1 {
+    padding-left: 300px;
+}
+
+.buy-div button {
+    width: 100px;
+    height: 50px;
+    background-color: #0077b6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+button:hover {
+    translate: 0 -5px;
+    transition: 0.3s;
+}
+.buy-div div {
+    gap: 20px;
+}
+.end-sec {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f9fafb;
+}
+.first-text h1 {
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.end-text {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.end-text div {
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.2));
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #0b1220;
+    color: white;
+    display: flex;
+    padding-top:50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+footer div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer h1 {
+    font-size: 17px;
+}
+
+.end-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.end-top-1 {
+    gap: 700px;
+
+}
+.end-top h2 {
+    color: #6b7280;
+}
+.end-texts h5 {
+    color: #6b7280;
+}
+.end-texts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.end-text div:hover {
+    translate: 0 -5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.buy-div div:hover {
+    translate: 0 -5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.end-top-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+@media (max-width: 768px) {
+
+    .end-top {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 30px;
+    }
+}
